@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from '@mui/material';
 import metabnb from '../assets/img/metabnb.png'
+import { Button } from '@mui/material';
+
 
 
 const Navbar = () => {
@@ -11,15 +13,16 @@ const Navbar = () => {
               <img className='navbar__logo' 
               src={metabnb} alt="logo"/>
               
-      <div className="nav_links">
-        <Link to="/">Home</Link>
-        <Link to="/Create">Place To Stay</Link>
-        <Link to="/Nfts">NFTS</Link>
-        <Link to="/Community">Community</Link>
+      <div className="nav_items">
+        <Link className='nav_links' to="/">Home</Link>
+        <Link className='nav_links' to="/Create">Place To Stay</Link>
+        <Link className='nav_links' to="/Nfts">NFTS</Link>
+        <Link className="nav_links" to="/Community">Community</Link>
       </div>
               
-      <nav className="navbar__right"/>
-          <Link to="/Connect" >Connect Wallet</Link>
+      <div className="connect">
+        <Button variant="contained">Connect Wallet</Button>
+      </div>
     </nav>
   );
 }
