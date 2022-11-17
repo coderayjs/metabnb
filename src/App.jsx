@@ -5,7 +5,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import "./App.css";
 import Metabnbsection from './components/Metabnbsection'
-import Footer from './components/Footer'
+import Footer from './components/Footer/Footer'
+import Inspiration from './components/Inspiration'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <Metabnbsection/>
+      <Inspiration/>
       <Footer/>
     </div>
   );
