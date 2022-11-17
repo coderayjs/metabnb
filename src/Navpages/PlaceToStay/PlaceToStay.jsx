@@ -173,7 +173,7 @@ const PlaceToStay = () => {
   const [modal, setModal] = useState(0);
   return (
     <div>
-    <div className="whole"> <Nav /></div>
+    <div className="whole"> <Navbar /></div>
       <div className="placetostay">
         <div className="subnav">
           <div className="items1">

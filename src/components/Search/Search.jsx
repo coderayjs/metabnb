@@ -1,6 +1,5 @@
 import React from "react";
-import "./searchbar.css"
-
+import "./Search.css"
 const Search = () => {
     return (
     <form action="/" method="get">

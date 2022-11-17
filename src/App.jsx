@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Router, Routes, Route } from "react-router-dom";
 import Home from './Navpages/Home/Home';
 import PlaceToStay from './Navpages/PlaceToStay/PlaceToStay';
 import NFTS from './NavPages/NFTS/NFTS';
@@ -9,7 +9,7 @@ const App = () => {
 	return (
 		<div className="app">
 			<Routes>
-				<Route path="/Home" element={<Home />} />
+				<Route path="/" element={<Home />} />
 				<Route path="/PlaceToStay" element={<PlaceToStay/>} />
 				<Route path="/NFTS" element={<NFTS/>} />
 				<Route path="/Community" element={<Community/>} />

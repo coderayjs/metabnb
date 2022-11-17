@@ -1,11 +1,11 @@
 import React from "react";
 import Search from "../../components/Search/Search";
-import "./home.css";
+import "./Home.css";
 import gri1 from '../../assets/img/grid pic.png';
-import Nav from '../../components/Navigation/Navbar';
-import Mid from '../../components/Items/Items';
+import Navbar from '../../components/Navigation/Navbar';
+import Items from '../../components/Items/Items';
 import post from '../../assets/img/postpic.png';
-import Footer from '../../components/footer/footer';
+import Footer from '../../components/Footer/Footer';
 import Widget from "../../components/widget/widget";
 import Widget1 from "../../widgets/img/widget1.png";
 import Widget2 from "../../widgets/img/widget2.png";
@@ -96,7 +96,7 @@ const Home = () => {
   return (
     <div>
     <div className="App">
-     <Nav />
+     <Navbar />
       <div className="container">
         <div className="first-row">
           <h1>
@@ -115,7 +115,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <Mid />
+    <Items />
     <div className="mid-sec">
         <h2>Inspiration for your next adventure</h2>
         <div className="widget">

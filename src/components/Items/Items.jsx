@@ -1,10 +1,10 @@
 import React from "react";
-import "./mid.css";
+import "./Items.css";
 import mb from "../../assets/img/mb.png"
 import met from "../../assets/img/meta (1).png"
 import open from "../../assets/img/opensea.png"
 
-const Mid = () => {
+const Items = () => {
     return (
     <div className="mid-container">
        <div className="mini-con">
@@ -17,4 +17,4 @@ const Mid = () => {
     );
 
 }
-export default Mid;
+export default Items;

@@ -1,11 +1,11 @@
 import React from "react";
-import "./footer.css";
-import footerlogo from '../assets/img/footerlogo.png';
+import "./Footer.css";
+import footerlogo from '../../assets/img/footerlogo.png';
 import facebook from '../../assets/img/facebook (6).png';
 import instagram from '../../assets/img/instagram.png';
 import twitter from '../../assets/img/twitter (3).png';
 
-const footer = () => {
+const Footer = () => {
     return(
 
       <footer>
@@ -52,4 +52,4 @@ const footer = () => {
         )
 }
 
-export default footer;
+export default Footer;
